@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Página Teste</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="hero-banner">
+            <img src="https://placehold.co/1200x320/png" alt="Hero Banner">
+        </div>
+
+        <div class="main-header">
+            <h1>Título Principal</h1>
+            <p>texto parágrafo</p>
+        </div>
+
+        <div class="card-list">
+            <div class="card" data-id="prod-001">
+                <img src="https://placehold.co/250x140/png" alt="Produto 1">
+                <div class="card-title">Produto 1</div>
+                <div class="card-summary">Descrição breve do produto 1.</div>
+                <div class="card-price">R$ 99,90</div>
+                <button class="card-cta" id="primeiro_botao" onClick="adiciona()">Comprar</button>
+            </div>
+            <div class="card" data-id="prod-002">
+                <img src="https://placehold.co/250x140/png" alt="Produto 2">
+                <div class="card-title">Produto 2</div>
+                <div class="card-summary">Descrição breve do produto 2.</div>
+                <div class="card-price">R$ 149,90</div>
+                <button class="card-cta segundo_botao">Comprar</button>
+            </div>
+            <div class="card" data-id="prod-003">
+                <img src="https://placehold.co/250x140/png" alt="Produto 3">
+                <div class="card-title">Produto 3</div>
+                <div class="card-summary">Descrição breve do produto 3.</div>
+                <div class="card-price">R$ 79,90</div>
+                <button class="card-cta">Comprar</button>
+            </div>
+            <div class="card" data-id="prod-004">
+                <img src="https://placehold.co/250x140/png" alt="Produto 4">
+                <div class="card-title">Produto 4</div>
+                <div class="card-summary">Descrição breve do produto 4.</div>
+                <div class="card-price">R$ 199,90</div>
+                <button class="card-cta">Comprar</button>
+            </div>
+            <div class="card" data-id="prod-005">
+                <img src="https://placehold.co/250x140/png" alt="Produto 5">
+                <div class="card-title">Produto 5</div>
+                <div class="card-summary">Descrição breve do produto 5.</div>
+                <div class="card-price">R$ 59,90</div>
+                <button class="card-cta">Comprar</button>
+            </div>
+            <div class="card" data-id="prod-006">
+                <img src="https://placehold.co/250x140/png" alt="Produto 6">
+                <div class="card-title">Produto 6</div>
+                <div class="card-summary">Descrição breve do produto 6.</div>
+                <div class="card-price">R$ 89,90</div>
+                <button class="card-cta">Comprar</button>
+            </div>
+        </div>
+        <script>
+            function adiciona(){
+                window.alert("Clicou no botão");
+            }
+        </script>
+    </body>
+</html>
